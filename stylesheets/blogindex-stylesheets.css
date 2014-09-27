@@ -1,0 +1,52 @@
+body{
+	/*background: url(http://i.dailymail.co.uk/i/pix/2009/08/01/article-1203654-05EAC8B3000005DC-168_634x434.jpg);*/
+	background: #588EBC;
+}
+#header{
+	display:block;
+	padding: 50px;
+	border: 2px solid black;
+	font-size:20pt;
+	text-align: center;
+	width: 70%;
+	 margin-left: auto;
+    margin-right: auto ;
+}
+
+.ref{
+	margin: 50px;
+}
+
+#social {
+	display: inline-block;
+	text-align: center;
+}
+.twitter {
+	height: 40px;
+	width: 40px;
+}
+.github{
+	height: 40px;
+	width: 40px;
+}
+.linkedin{
+	height: 40px;
+	width: 40px;
+}
+#social{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+
+#blogs{
+	margin:100px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto ;
+    border: 2px solid black;
+    width: 1000px;
+    height: 1000px;
+    font-size: 20pt;
+    padding: 50px;
+}
