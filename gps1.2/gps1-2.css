@@ -1,0 +1,24 @@
+h1{
+	background:blue; 
+	font-family: Verdana; 
+	text-align:center; 
+	color:red; border: 2px solid black;
+	}
+
+img {
+	display: block; 
+	margin: auto;
+}
+
+p {
+	font-size:14pt; 
+	font-family: Verdana;
+}
+
+div {
+	font-size:14pt;
+	font-family: Verdana;
+	border: 1px solid red;
+	padding:5px;
+	margin-bottom: 4px;
+}
