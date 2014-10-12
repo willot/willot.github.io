@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <link rel="stylesheet" type="text/css"  href="../stylesheets/blog-stylesheets.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">First steps</h1>
+    <h2>Enumerable methods</h2>
+    <span id="date">10-11-2014</span>
+    <div id="text_body"> 
+        <p>Today they ask us to speak about one of this three methods that are part of the module Enumerable:<br>
+          #map
+          #group_by
+          #cycle
+        </p>
+        <p>But the first question that came in my mind first is what is Enumerable module. After some research I am not sure I totally get it. To make it simple a module is a group a library of methods that you can use across class. But I am sure we will have the occasion to learn more about it.</p>
+        <p>I had to pick one method to write on so I choose cycle because I am wondering if it can avoid to write loops and simplify the code. 
+        Cycle is used to repeat data from an array. <br>
+        ["Tarte", "Pain au chocolat", "Croissant", "Eclair", "Religieuse"].cycle(3) {|food| puts  food}<br>  
+        Tarte<br>
+        Pain au chocolat<br>
+        Croissant<br>
+        Eclair<br>
+        Religieuse<br>
+        Tarte<br>
+        Pain au chocolat<br>
+        Croissant<br>
+        Eclair<br>
+        Religieuse<br>
+        Tarte<br>
+        Pain au chocolat<br>
+        Croissant<br>
+        Eclair<br>
+        Religieuse<br>
+        So basically it repeat the data inside the array n times. It actually do the same thing that  (n).times. Cycle is a little bit more simple coding. 
+        </p>
+        <p>Another cool thing with cycle is that if you do: <br>
+        gateaux = ["Tarte", "Pain au chocolat", "Croissant", "Eclair", "Religieuse"] <br>
+        gateaux.cycle.next  => Tarte<br>
+        If you repeat that  5 time then it iwll be:  gateaux.cycle.next  => Religieuse<br>
+        If you do that one more time. gateaux.cycle.next  => Tarte<br>
+        So you get back to the first data in the array. <br>It is actually pretty cool. Because if you were using: 
+        gateaux.each.next it will not go back to Tarte after it reach Religieuse.  
+        The reason why is that <br> gateaux.cycle.object_id  ==  gateaux.cycle.object_id => false<br>
+        <p>This <a  href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">post</a>  is a very good source for more information on Enumerable methods. 
+        </p>
+
+        <p id="thanks">Thank you for reading!</p>
+    </div>
+  </body>
+</html>
