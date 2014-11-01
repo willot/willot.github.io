@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Template</title>
+    <link rel="stylesheet" type="text/css"  href="../stylesheets/blog-stylesheets.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">First steps</h1>
+    <h2>Ruby hash versus JavaScript Object</h2>
+    <span id="date">10-31-2014</span>
+    <div id="text_body"> 
+        <p>The subject of the post of today is comparing Ruby and JavaScript. I am particularly going to look at ruby hash and JavaScript object. 
+        The way we write an hash in Ruby and an object in JavaScript is pretty similar. In both case we use the "{}" parentheses.
+        </p>
+        <p>In ruby we can do:<br>
+          hash = hash.new or hash = {} Both will create an empty hash.<br><br>
+          We can also create hash that are not empty:<br>
+          hash = {"lion" => "mammal", "tigershark" => "Chondrichthyes", "emerald ash borer" =>"insect"}<br>
+          So this hash contains specie names as key and class as value. <br>
+          You can also do:<br>
+          hash = {lion:  5,  tiger_shark:  51, emerald_ash_borer:  600}<br><br>
+
+          In JavaScript we can do:<br>
+          var object_1 = {<br>
+          lion: "mammal",<br>
+          tigershark: "Chondrichthyes",<br>
+          emerald ash borer: "insect"<br>
+          }<br><br>
+          It is pretty similar. The difference is the use of ':' instead of '=>' in the first case and the key value in JavaScript do not need "". <br>
+        </p>
+        <p>
+        
+        The way we access the data inside the hash or object is also similar.<br>
+        hash["lion"]<br>
+        => "mammal"<br><br>
+
+        In Javascript:<br>
+        console.log(hash.lion)<br>
+        => "mammal"<br>
+        </p>
+        <p>
+        One difference is that you can print the key and the value in Ruby<br>
+        puts "#{key}  class is  #{value}"<br><br>
+        In JavaScript it is way more complex. You can only easily access the value<br>
+        console.log(hash.key)
+        </p>
+        <p id="thanks">Thank you for reading!</p>
+    </div>
+  </body>
+</html>
