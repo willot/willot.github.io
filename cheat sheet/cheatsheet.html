@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <link rel="stylesheet" type="text/css"  href="cheatsheet.css"/>  
+    <title>Cheat sheet</title>
+    <style>
+    </style>
+  </head>
+    
+  <body>
+    <div id="title/info">
+        <h1>
+        Ruby Integer, String, Array and Hashes
+        </h1>
+        <h3> 
+            Alex Hardt<br>
+            Vianney Willot
+        </h3>
+        <h4> 11/6/2014 </h4>
+    </div>    
+  
+    <div id="content">
+        <h3>Integer vs String</h3>
+        <p>
+        The <a href="http://www.ruby-doc.org/core-2.1.4/String.html">definition</a> of string in Ruby-Doc is: 
+        "A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters. 
+        String objects may be created using String::new or as literals." 
+        This is a very formal definition. I guess you can simply see a string as words. A list of words included in "" is seen 
+        as one object and not has individual objects.Nevertheless number can also be a string if we transform them using the method
+        to_s.
+        </p>
+        <p>
+        The <a href="http://ruby-doc.org/core-1.9.3/Integer.html">definition</a> of integer in Ruby-Doc is even more dry: 
+        "Integer is the basis for the two concrete classes that hold whole numbers, Bignum and Fixnum."
+        We are going to ignore the concept of class for now. Integers are just whole numbers. You can change an integer to a "float"(aka: decimal number)
+        by using the method to_f. You can also set the number of decimal that you want to return.
+        </p>
+        <p>Integers and Strings are both objects in Ruby (as is everything in Ruby) however, Strings and Integers are different types of objects and
+        therefore have methods that can act upon them. For example, you cannot divide two strings like you can divide an integer 
+        (however, you can split them into parts).</p>
+        <p>Also, integers can be converted to strings, and strings of integers can be converted to back to integers.
+            Basically, you can convert the number/integer 55 to a string of "55". Furhter, you can split this string of "55" to "5" and "5" 
+            and then change both of the strings of "5" back to an integer.
+            
+            You can technically convert a string to an integer, however it does not make sense. 
+            For example, what number should the letter "a" have? I don't know. 
+            If you convert a string of letters to an integer, you get a value of zero.
+        </p>
+        <h3>Hashes vs Array</h3>
+        <p>
+            The <a href="http://www.ruby-doc.org/core-2.1.4/Array.html">definition</a> of Arrays are ordered, integer-indexed collections of any object.
+            It is a pretty short and sweet definition that really explain what an array is. It is an object that collect object in an organize order.
+            For example, a list of things, such as all of the sports cars I have. The array will be the names of the 5 cars, and the index assigned 
+            to them will be the digits 0-4. In arrays we start counting with zero. ["ferrarri","ford truck","corvette","lotus","tesla"]
+        </p>
+        <p>
+            The <a href="http://www.ruby-doc.org/core-2.1.4/Hash.html">definition</a> of in the Ruby-Doc is 
+            "A Hash is a dictionary-like collection of unique keys and their values. 
+            Also called associative arrays, they are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type."
+            For hashes, if we use the sports car example, we no longer used an integer based index, but rather whatever we want. So I could make a hash of my
+            sports cars, based on the emotion each car gives me.
+            So, I could have my 5 sports cars, but when I want to access any one of them, I pick the emotion I am using.
+            If I am feeling "sad", I will tell the hash to give me the car associated with "sad", the red Ferrarri, ofcourse.
+            The big difference between the hash and the array is that the hash can have whatever it wants as a key.
+            {rich => ferrerri, good => "ford truck", sad =>"corvette", great =>"lotus", green =>"tesla"}
+        </p>
+        <p>Hashes and arrays as strings and integers have their own specific methods. Some are similars some are different. You can see the list
+            of all the methods on the ruby Doc linked with the definition.
+        </p>
+        <p></p>
+    </div>  
+      
+   
+    <div id="contact">
+       <a href="mailto:hardt.alex@gmail.com">Email Alex </a><br>
+       <a href="mailto:vianney.willot@gmail.com">Email Vianney </a>
+    </div>   
+  </body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    background:#778899;
+}
+
+h1{
+  font-familly:Papyrus;
+  text-align:center;
+  font-style:bolder;
+}
+
+h3{
+ font-familly:Papyrus;
+ text-align:center;
+ font-style:bolder;
+ font-size:22pt;
+}
+
+h4{
+margin-left: 100px;
+font-size:18pt;
+}
+
+p {
+   font-family:Garamond;
+   font-size:18pt;
+}
+
+#contact{
+text-align:center;
+ font-size:18pt;
+}
+
+#content{
+	border: 2px solid red;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+div {
+     padding:50px;
+    }
