@@ -13,6 +13,17 @@ body{
     margin-right: auto ;
 }
 
+#blogs{
+	margin:100px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto ;
+    border: 2px solid black;
+    width: 1000px;
+    height: 1000px;
+    font-size: 20pt;
+    padding: 50px;
+}
 li{
 	margin-bottom:10px;
 }
@@ -47,33 +58,7 @@ li{
 
 }
 
-.blogs{
-	margin:100px;
-	display:block;
-    border: 2px solid black;  
-    font-size: 20pt;
-    padding: 50px;
-    width: 350px;
-    display: inline-block;
-    margin-left: 225px;
-    margin-right: auto;
-    width: 500px;
-}
 
-#cultural{
-	  float:left;
-}
-
-#techincal{
-    float: right;
-    }
-span {
-	font-size:12pt;
-}    
-
-h2 {
-	color: blue;
-}
 
 a:hover{
 	color: red;
