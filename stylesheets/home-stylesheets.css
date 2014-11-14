@@ -18,13 +18,14 @@ p {
 
 #header{
 	display:block;
-	padding: 50px;
-	border: 2px solid black;
+	padding: 25px;
+	border: 4px solid white;
 	font-size:20pt;
 	text-align: center;
 	width: 70%;
-	 margin-left: auto;
-    margin-right: auto ;
+	background:#2E8B57;
+	margin-left: auto;
+    margin-right: auto;
 }
 .ref{
 	margin: 50px;
@@ -58,3 +59,16 @@ p {
     margin-right: auto ;
     margin-bottom: 100px;
 }
+
+a:hover{
+	color: red;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:link {
+	color: blue;
+}	
+
