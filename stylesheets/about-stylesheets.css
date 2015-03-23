@@ -14,6 +14,22 @@ body{
     margin-right: auto;
 }
 
+.ref{
+	margin: 50px;
+}
+
+a:hover{
+	color: red;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:link {
+	color: blue;
+}
+
 .twitter {
 	height: 40px;
 	width: 40px;
