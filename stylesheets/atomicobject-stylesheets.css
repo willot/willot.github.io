@@ -37,8 +37,6 @@
     text-align: justify;
     position: relative;
 	right: 65px;
-
-
 }
 
 #list li{
@@ -71,14 +69,15 @@ h4 {
 	position: fixed;
 	margin-left: 90px;
 	margin-top: -20px;
-	font-size:18px;
+	font-size:15px;
 }
 #listing ul{
 	margin-bottom: -10px;
+	font-weight:bold;
 }
 
 #title_listing{
-	font-size: 25px;
+	font-size: 20px;
 	color: #000080;
 	font-weight:bold;
 }
